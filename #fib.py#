@@ -65,6 +65,7 @@ phi_converge_output_format = \
 """Approximation order: {:d}
     phi_old: {:.25f}
     phi_new: {:.25f}"""
+f=open('output.txt,'a')
 def phi_converge():
     """Keep calculating higher-order Fibonacci approximations to the golden
     ratio until it stops changing (to floating-point precision)."""
