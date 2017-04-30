@@ -30,6 +30,8 @@ Usage
         phi_approx(int(args[1]))
     elif args[0] == "converge" and len(args) == 1:
         phi_converge()
+#   elif args[0] == "converge" and len(args) == 2:
+#        phi_converge(args[1])
     else:
         print("Error: input not understood.\n" \
                 "    Type './fib.py help' for info on this program.")
